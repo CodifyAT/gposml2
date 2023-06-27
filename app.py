@@ -9,8 +9,8 @@ def get_h():
     return model
 
 def get_s():
-     with open('datasubpopulation.pkl', 'rb') as s:
-        model=pickle.load(s)
+    with open('datasubpopulation.pkl', 'rb') as s:
+        model = pickle.load(s)
     return model
 
 def get_y():
